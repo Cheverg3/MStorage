@@ -85,7 +85,7 @@ body{
         background-position: left top;
         background-attachment: fixed;
         top: 0px;
-        height: 2500px;
+        height: calc(100vh);
 } 
 
     .checkbtn{
