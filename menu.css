@@ -91,7 +91,7 @@ body{
     .checkbtn{
         display: block;
     }
-    ul{ position: fixed;
+    ul{ position: absolute;
         width: 100%;
         height: 100vh;
         background: var(--main-color);
