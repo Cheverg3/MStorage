@@ -72,7 +72,7 @@ body{
     background-position: center center;
     background-attachment: fixed;
     top: 0px;
-    height: calc(100vh - 150px);
+    height: calc(100vh);
 }
 
 
@@ -81,11 +81,11 @@ body{
     body{
         background-image: url(img/fondo.jpg);
         background-repeat: no-repeat;
-        background-size: 2000px 900px;
+        background-size: cover;
         background-position: center center;
         background-attachment: fixed;
         top: 0px;
-        height: calc(100vh - 150px);
+        height: calc(100vh);
 } 
 
     .checkbtn{
