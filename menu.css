@@ -81,11 +81,11 @@ body{
     body{
         background-image: url(img/fondo.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
+        background-size: 2500px 1668px;
+        background-position: left top;
         background-attachment: fixed;
         top: 0px;
-        height: calc(100vh);
+        height: 2500px;
 } 
 
     .checkbtn{
