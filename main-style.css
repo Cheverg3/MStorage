@@ -76,7 +76,7 @@ article {
   background-color: var(--main-color);
   margin: 0 auto;
   padding: 6%;
-  width: 80%;
+  width: 90%;
   font-size: 25px;
   display: block;
 }
@@ -177,25 +177,21 @@ article p {
   background-color: var(--main-color);
   margin: 0 auto;
   padding: 30px 0;
-  width: 80%;
+  width: 90%;
   display: grid;
-  /* gap: 1rem; */
-  /* grid-auto-rows: 22rem; */
-  /* grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); */
   grid-template-columns: repeat(auto-fill, 400px);
-  /* grid-template-columns: auto auto; */
   justify-content: space-around;
-  justify-content: center;
 }
 
 .album {
   height: 410px;
   width: 350px;
-  margin: 30px;
+  margin: 5%;
   /* border: 2px solid; */
   background-color: var(--shadow-color);
   border-radius: 10px;
   padding: 37.5px 0;
+  transition: all 0.4s;
 }
 
 .album-cover img {
