@@ -12,7 +12,7 @@
 
 :root {
   --main-color: #fefefe;
-  --shadow-color: #d9d9d9;
+  --shadow-color: #efe9e4;
 }
 
 .content {
@@ -76,7 +76,7 @@ article {
   background-color: var(--main-color);
   margin: 0 auto;
   padding: 6%;
-  width: 90%;
+  width: 85%;
   font-size: 25px;
   display: block;
 }
@@ -177,7 +177,7 @@ article p {
   background-color: var(--main-color);
   margin: 0 auto;
   padding: 30px 0;
-  width: 90%;
+  width: 85%;
   display: grid;
   grid-template-columns: repeat(auto-fill, 400px);
   justify-content: space-around;
@@ -187,14 +187,12 @@ article p {
   height: 410px;
   width: 350px;
   margin: 5%;
-  /* border: 2px solid; */
   background-color: var(--shadow-color);
   border-radius: 10px;
   padding: 37.5px 0;
-  transition: all 0.4s;
 }
 
-.album-cover img {
+.album-cover {
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -221,4 +219,10 @@ article p {
 
 .album-info-title {
   text-align: center;
+}
+
+.album-dropdown {
+  width: 100%;
+  background-color: red;
+  display: none;
 }
