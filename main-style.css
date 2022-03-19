@@ -13,6 +13,7 @@
 :root {
   --main-color: #fefefe;
   --shadow-color: #efe9e4;
+  --dark-color: #e5e5e5;
 }
 
 .content {
@@ -155,7 +156,7 @@ article p {
     font-size: 15px;
     width: 100%;
     padding: 0;
-    color: var(--shadow-color);
+    color: var(--dark-color);
     font-size: 20px;
   }
 
