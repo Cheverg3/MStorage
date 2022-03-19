@@ -5,7 +5,7 @@
   list-style: none;
   box-sizing: border-box;
   font-family: "Rubik", sans-serif;
-  transition: all 0.6s;
+  /* transition: all 0.6s; */
 }
 
 /* Falta añadir transiciones de paginas */
@@ -169,8 +169,39 @@ article p {
   #check:checked ~ ul {
     left: 0;
   }
+}
 
-  #check:checked ~ * {
-    overflow: hidden;
-  }
+/* Estilos para la galeria */
+
+.gallery {
+  background-color: var(--main-color);
+  margin: 0 auto;
+  padding: 6%;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.album {
+  height: 300px;
+  width: 300px;
+  background: red;
+  margin: 0;
+  /* flex: 1 1 100%; */
+}
+
+.album-cover img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 250px;
+  width: 250px;
+}
+
+.album-artist {
+  text-align: center;
+}
+
+.album-title {
+  text-align: center;
 }
