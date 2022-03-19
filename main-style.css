@@ -12,8 +12,7 @@
 
 :root {
   --main-color: #fefefe;
-  --shadow-color: #efe9e4;
-  --dark-color: #d5d5d5;
+  --shadow-color: #e4d8d3;
 }
 
 .content {
@@ -137,7 +136,7 @@ article p {
   nav ul {
     position: absolute;
     width: 100%;
-    height: 400px;
+    height: 440px;
     top: 150px;
     left: -100%;
     text-align: center;
@@ -156,13 +155,13 @@ article p {
     font-size: 15px;
     width: 100%;
     padding: 0;
-    color: var(--dark-color);
+    color: #000;
     font-size: 20px;
   }
 
   nav li a:hover,
   nav li a.active {
-    color: #000;
+    color: var(--shadow-color);
     padding: 0;
     background: none;
   }
