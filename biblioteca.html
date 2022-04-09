@@ -17,45 +17,29 @@
     <link rel="stylesheet" type="text/css" href="main-style.css" />
   </head>
   <body>
-   <div class="content">
-    <nav>
-      <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <a href="index.html" class="enlace">
-        <img src="img/logo.png" alt="" class="logo" />
-      </a>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a class="active" href="biblioteca.html">Biblioteca</a></li>
-        <li><a href="subida.html">Subir archivos</a></li>
-      </ul>
-    </nav>
-    <div class="clearfix"></div>
-    <div class="article-container">
-        <div class="gallery">
-          <div class="album">
-            <div class="album-main">
-              <img src="music/ilustraciones/axis.jpg" class="album-cover" />
-              <div class="album-info">
-                <p class="album-info-artist">Jimi Hendrix</p>
-                <p class="album-info-title">Axis: Bold as love</p>
-              </div>
-            </div class="album-main">
-            <div class="album-dropdown">
-              <ul>
-                <li>hola</li>
-              </ul>
-  
-            </div>
-          </div>
-          
+    <div class="content">
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <a href="index.html" class="enlace">
+          <img src="img/logo.png" alt="" class="logo" />
+        </a>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a class="active" href="biblioteca.html">Biblioteca</a></li>
+          <li><a href="subida.html">Subir archivos</a></li>
+        </ul>
+      </nav>
+      <div class="clearfix"></div>
+      <div class="article-container biblioteca_article-container">
+        <div class="gallery" id="gallery"></div>
+      </div>
 
-         
-          
-        </div>
-   </div class="article-container">
-     
+    <footer>
+      <div class="player"></div>
+    </footer>
+    <script type="module" src="scripts/script.js"></script> 
   </body>
 </html>
